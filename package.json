@@ -1,0 +1,24 @@
+{
+  "name": "wb_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iobg/wb_challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iobg/wb_challenge/issues"
+  },
+  "homepage": "https://github.com/iobg/wb_challenge#readme",
+  "type": "module"
+}
