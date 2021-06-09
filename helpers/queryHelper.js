@@ -14,6 +14,7 @@ const initCon = () =>{
 
 const queryData = async (connection) =>{
 	//hardcoded query for convenience, typically would track all queries in config file
+	//also exception handling?
 	return await connection.query(
 		`select start_weight,end_weight,zone, rate, shipping_speed, locale from rates 
 		where client_id=1240
